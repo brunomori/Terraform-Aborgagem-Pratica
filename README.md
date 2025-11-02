@@ -73,27 +73,26 @@ sudo apt install code -y
 
 <b>1º - Criando pasta para armazenamento de arquivos</b><br>
 No meu sistema operacional, a fim de manter a melhor organização, irei criar uma pasta para armazenar todos os arquivos de terraform em um só lugar. Para isso, criarei a pasta ``Projetos``.
-<img src="https://drive.google.com/uc?export=view&id=1rtprCyYJ9gIXN2XlXSw8wtmBYoDZ9jJZ" alt="Meu Print" width="2000">
 
 <b>2º - Indo para o VS-Code</b><br>
  No terminal, dentro da pasta <b>'projeto'</b>, abriremos o Vs code com o comando <b>``code .``</b>
- <img src="https://drive.google.com/uc?export=view&id=1xloex7oevhK3cgNAqUI3HEw4SS73Vnw8" width="750">
+ 
  
  VS Code já aberto ta pasta <b>``'projetos'``</b>
- <img src="https://drive.google.com/uc?export=view&id=1QsFVX_eiPXQwlEXeqxwf8VQypYhAB1jN" width="750"><br>
+ 
  
  <b>3º - Criando o arquivo <b>main</b> </b><br> 
   Para criarmos o arquivo main, basta gerarmos um novo arquivo no Vs code com o nome `` main.tf ``. No entanto, antes eu irei criar uma pasta chamada ``terraform`` dedicada para esse nosso primeiro projeto.<br>
   
   <b>3.1</b> - Pasta Criada
-  <img src="https://drive.google.com/uc?export=view&id=1gy_IK5K2orgnmjiYZziXdH40LDv7mkIu" width="1750">
+
  
   <b>3.2</b> - Abrindo terminal e elevando user para root
   <img src="https://drive.google.com/uc?export=view&id=1iUNZVX3hBF38jkQar3RYXGJ3ZMOfNfa0" alt="Meu Print" width="750">
-  <img src="https://drive.google.com/uc?export=view&id=1lcxwpbJxDrwKEgVlNyeFt6vMrx4WE_Vg" alt="Meu Print" width="750">
+
   
   <b>3.3</b> - Arquivo criado a partir do comando ``touch main.tf``
-  <img src="https://drive.google.com/uc?export=view&id=1UMiPF9sMpDNWQBiKoIi99AiZw9a_oXo7" alt="Meu Print" width="750"><br>
+  
   Recomendo fazer desta forma, pois assim você conseguirá executar todos os comando do terraform sem a necessidade de a cada comando digitar ``sudo`` no início de cada comando. <br><br>
 
   <b>4º - Difinindo as configurações principais do <b>main.tf</b></b><br> 
